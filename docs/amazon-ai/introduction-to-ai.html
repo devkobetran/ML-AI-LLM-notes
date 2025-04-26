@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-amazon-ai/introduction-to-ai" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.2">
+<title data-rh="true">Introduction to AI | Kobe Tran | ML-AI-LLM Notes</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://devkobetran.github.io/ML-AI-LLM-notes/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://devkobetran.github.io/ML-AI-LLM-notes/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://devkobetran.github.io/ML-AI-LLM-notes/docs/amazon-ai/introduction-to-ai"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Introduction to AI | Kobe Tran | ML-AI-LLM Notes"><meta data-rh="true" name="description" content="Introduction to Generative Artificial Intelligence"><meta data-rh="true" property="og:description" content="Introduction to Generative Artificial Intelligence"><link data-rh="true" rel="icon" href="/ML-AI-LLM-notes/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://devkobetran.github.io/ML-AI-LLM-notes/docs/amazon-ai/introduction-to-ai"><link data-rh="true" rel="alternate" href="https://devkobetran.github.io/ML-AI-LLM-notes/docs/amazon-ai/introduction-to-ai" hreflang="en"><link data-rh="true" rel="alternate" href="https://devkobetran.github.io/ML-AI-LLM-notes/docs/amazon-ai/introduction-to-ai" hreflang="x-default"><link rel="alternate" type="application/rss+xml" href="/ML-AI-LLM-notes/blog/rss.xml" title="Kobe Tran | ML-AI-LLM Notes RSS Feed">
+<link rel="alternate" type="application/atom+xml" href="/ML-AI-LLM-notes/blog/atom.xml" title="Kobe Tran | ML-AI-LLM Notes Atom Feed"><link rel="stylesheet" href="/ML-AI-LLM-notes/assets/css/styles.c3d792a7.css">
+<script src="/ML-AI-LLM-notes/assets/js/runtime~main.b281ada5.js" defer="defer"></script>
+<script src="/ML-AI-LLM-notes/assets/js/main.2365c455.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"light")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/ML-AI-LLM-notes/"><div class="navbar__logo"><img src="/ML-AI-LLM-notes/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/ML-AI-LLM-notes/img/logo.svg" alt="My Site Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">Kobe Tran ML-AI-LLM Notes</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/ML-AI-LLM-notes/docs/intro">Tutorial</a></div><div class="navbar__items navbar__items--right"><a href="https://github.com/devkobetran/ML-AI-LLM-notes" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently light mode)" aria-label="Switch between dark and light mode (currently light mode)" aria-live="polite"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ML-AI-LLM-notes/docs/intro">Introduction</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/ML-AI-LLM-notes/docs/environment-setup">Environment Setup</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist menu__link--active" href="/ML-AI-LLM-notes/docs/category/amazon-ai-notes">Amazon AI Notes</a><button aria-label="Collapse sidebar category &#x27;Amazon AI Notes&#x27;" aria-expanded="true" type="button" class="clean-btn menu__caret"></button></div><ul style="display:block;overflow:visible;height:auto" class="menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" tabindex="0" href="/ML-AI-LLM-notes/docs/amazon-ai/introduction-to-ai">Introduction to AI</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ML-AI-LLM-notes/docs/amazon-ai/generative-ai-programming-tools">Generative AI programming tools</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ML-AI-LLM-notes/docs/amazon-ai/ai-for-automation">AI for Automation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ML-AI-LLM-notes/docs/amazon-ai/ai-software-design">AI Software Design</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ML-AI-LLM-notes/docs/amazon-ai/introduction-to-ai-decision-making-models">Introduction to AI Decision Making Models</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ML-AI-LLM-notes/docs/amazon-ai/digital-transformation">Digital Transformation</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-2 menu__list-item"><a class="menu__link" tabindex="0" href="/ML-AI-LLM-notes/docs/amazon-ai/business-challenges">Business Challenges</a></li></ul></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/ML-AI-LLM-notes/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item"><a class="breadcrumbs__link" itemprop="item" href="/ML-AI-LLM-notes/docs/category/amazon-ai-notes"><span itemprop="name">Amazon AI Notes</span></a><meta itemprop="position" content="1"></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Introduction to AI</span><meta itemprop="position" content="2"></li></ul></nav><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Introduction to AI</h1></header>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="introduction-to-generative-artificial-intelligence">Introduction to Generative Artificial Intelligence<a href="#introduction-to-generative-artificial-intelligence" class="hash-link" aria-label="Direct link to Introduction to Generative Artificial Intelligence" title="Direct link to Introduction to Generative Artificial Intelligence">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="discriminative-ai">Discriminative AI<a href="#discriminative-ai" class="hash-link" aria-label="Direct link to Discriminative AI" title="Direct link to Discriminative AI">​</a></h3>
+<ul>
+<li><strong>Discriminative AI</strong>: makes decisions and predictions by analyzing and classifying data.<!-- -->
+<ul>
+<li>Acts as an evaluator.</li>
+</ul>
+</li>
+<li><strong>Generative AI</strong>: acts as a creator.<!-- -->
+<ul>
+<li>creates new content based on what it learns during training.</li>
+<li>innovator</li>
+</ul>
+</li>
+<li>Examples of Gen AI:<!-- -->
+<ul>
+<li>text generation like chatGPT</li>
+<li>image generation</li>
+<li>music synthesis</li>
+</ul>
+</li>
+<li>AI simplify complex ideas</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="how-generative-ai-works">How generative AI works<a href="#how-generative-ai-works" class="hash-link" aria-label="Direct link to How generative AI works" title="Direct link to How generative AI works">​</a></h2>
+<ul>
+<li>Gen AI learns from datasets<!-- -->
+<ul>
+<li>text</li>
+<li>images</li>
+<li>code</li>
+</ul>
+</li>
+<li>Gen AI learns the features and patterns it&#x27;s fed.</li>
+<li>It&#x27;s like a chef understanding ingredients to generate recipes for specific needs.</li>
+<li>Building blocks of Gen AI: large datasets</li>
+<li>Gen AI:<!-- -->
+<ul>
+<li>identifies patterns</li>
+<li>learns rules</li>
+<li>extracts information</li>
+</ul>
+</li>
+<li>Gen AI can<!-- -->
+<ul>
+<li>complete</li>
+<li>improve</li>
+<li>debug</li>
+<li>optimize</li>
+</ul>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="generative-ai-in-software-development">Generative AI in software development<a href="#generative-ai-in-software-development" class="hash-link" aria-label="Direct link to Generative AI in software development" title="Direct link to Generative AI in software development">​</a></h2>
+<ul>
+<li>AI in planning phase:<!-- -->
+<ul>
+<li>Identify the functional requirements and architectual styles from business needs.</li>
+</ul>
+</li>
+<li>AI in Development phase:<!-- -->
+<ul>
+<li>proposes boilerplates</li>
+<li>writes complex algorithms</li>
+<li>optimize current code</li>
+</ul>
+</li>
+<li>AI in testing phase:<!-- -->
+<ul>
+<li>automates unit and integration tests.</li>
+</ul>
+</li>
+<li>AI in deployment phase:<!-- -->
+<ul>
+<li>recommends configurations for deployment</li>
+<li>monitors for potential issues</li>
+</ul>
+</li>
+<li>AI in maintenance phase:<!-- -->
+<ul>
+<li>monitors for bug detection</li>
+<li>automatic documentation updates</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="boost-in-productivity">Boost in productivity<a href="#boost-in-productivity" class="hash-link" aria-label="Direct link to Boost in productivity" title="Direct link to Boost in productivity">​</a></h3>
+<ul>
+<li>Code suggestions</li>
+<li>Code autocomplete or completion ideas</li>
+<li>Method generation</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="limitations">Limitations<a href="#limitations" class="hash-link" aria-label="Direct link to Limitations" title="Direct link to Limitations">​</a></h3>
+<ul>
+<li>Accuracy issues<!-- -->
+<ul>
+<li>may contain bugs or out-dated suggestions</li>
+<li>fail to account for<!-- -->
+<ul>
+<li>rounding inconsistencies</li>
+<li>empty carts</li>
+<li>invalid input</li>
+<li>etc</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Developers should still consider edge cases</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ethical-concerns">Ethical concerns<a href="#ethical-concerns" class="hash-link" aria-label="Direct link to Ethical concerns" title="Direct link to Ethical concerns">​</a></h3>
+<ul>
+<li>suggestions might contain copyright or proprietary code that you shouldn&#x27;t use or need permission to use.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="waning-personal-skills">Waning Personal skills<a href="#waning-personal-skills" class="hash-link" aria-label="Direct link to Waning Personal skills" title="Direct link to Waning Personal skills">​</a></h3>
+<ul>
+<li>relying on AI might dampen down your programming skills over time.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="tips">Tips<a href="#tips" class="hash-link" aria-label="Direct link to Tips" title="Direct link to Tips">​</a></h3>
+<ul>
+<li>Use AI for efficiency<!-- -->
+<ul>
+<li>Automate repetitive tasks</li>
+<li>Generate initial drafts</li>
+</ul>
+</li>
+<li>Use human oversight to ensure code meets project standards.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ethical-considerations-and-impact">Ethical Considerations and impact<a href="#ethical-considerations-and-impact" class="hash-link" aria-label="Direct link to Ethical Considerations and impact" title="Direct link to Ethical Considerations and impact">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-privacy">Data Privacy<a href="#data-privacy" class="hash-link" aria-label="Direct link to Data Privacy" title="Direct link to Data Privacy">​</a></h3>
+<ul>
+<li>Datasets can include personal data<!-- -->
+<ul>
+<li>AI could potentially remember and reproduce sensitive info.</li>
+</ul>
+</li>
+<li>Example: customer service AI trained on transcripts of real customer interactions.<!-- -->
+<ul>
+<li>Names of customers might be removed</li>
+<li>But addresses and customer&#x27;s credit card numbers can potentially be revealed in the AI response.<!-- -->
+<ul>
+<li>Thus, unintentional privacy breaches can occur.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>AI can generate unsecured code.<!-- -->
+<ul>
+<li>For example, unsecured code can be generated to manage user&#x27;s sensitive data to be stored in the database, leading to possile breaches.</li>
+</ul>
+</li>
+<li>AI can suggest proprietary code in a public repo, which another developer might unknowingly use, violating property rights.</li>
+<li>AI models need to improve on these issues.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="generating-harmful-or-misleading-content">Generating harmful or misleading content<a href="#generating-harmful-or-misleading-content" class="hash-link" aria-label="Direct link to Generating harmful or misleading content" title="Direct link to Generating harmful or misleading content">​</a></h3>
+<ul>
+<li>Generative AI can be misused to create harmful outputs, ranging from fake news articles to malicious code.<!-- -->
+<ul>
+<li>e.g. deep fakes can trick people</li>
+<li>e.g. hackers can taken advantage of developers that utilize malicious code generated from Gen AI.</li>
+</ul>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="the-societal-impacts-of-genai">The societal impacts of GenAI<a href="#the-societal-impacts-of-genai" class="hash-link" aria-label="Direct link to The societal impacts of GenAI" title="Direct link to The societal impacts of GenAI">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="effect-on-job-markets">Effect on job markets<a href="#effect-on-job-markets" class="hash-link" aria-label="Direct link to Effect on job markets" title="Direct link to Effect on job markets">​</a></h4>
+<ul>
+<li>Prevents junior engineers from joining job market.</li>
+<li>Needed retraining and upskilling of employees to stay competitive in AI driven market.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="copyright-and-intellectual-property-issues">Copyright and intellectual property issues<a href="#copyright-and-intellectual-property-issues" class="hash-link" aria-label="Direct link to Copyright and intellectual property issues" title="Direct link to Copyright and intellectual property issues">​</a></h4>
+<ul>
+<li>Legal challenges if AI copies proprietary code or is really similar to it.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="the-need-for-regulation">The need for regulation<a href="#the-need-for-regulation" class="hash-link" aria-label="Direct link to The need for regulation" title="Direct link to The need for regulation">​</a></h4>
+<ul>
+<li>European Union’s AI Act (2024): Categorizes AI systems based on risk levels and ensures that high-risk applications meet strict standards.</li>
+<li>United States’ AI Bill of Rights (2024): Provides guidelines to safeguard privacy, civil rights, and transparency in AI systems.</li>
+<li>China’s AI Regulations (2023-2024): Emphasizes innovation and national security while enforcing tight controls on AI development.</li>
+<li>Workers may face job displacement if they lack access to reskilling opportunities, highlighting the need for legal provisions that support workforce development in AI-driven industries.</li>
+<li>Unchecked biases in GenAI systems could perpetuate discrimination and reinforce inequalities, emphasizing the importance of regulations to ensure fairness and inclusivity.</li>
+<li>Privacy violations, threats to civil liberties, and a lack of transparency could arise without proper safeguards, leading to mistrust and potential societal instability.</li>
+<li>GenAI-generated social media content and deepfakes could manipulate public perception, fueling misinformation and causing significant societal disruption.</li>
+<li>High-risk applications, such as AI tools used in healthcare, require stringent safety and accuracy standards to prevent harm and ensure public trust.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="critical-thinking-sensitive-applications-of-genai">Critical thinking: Sensitive applications of GenAI<a href="#critical-thinking-sensitive-applications-of-genai" class="hash-link" aria-label="Direct link to Critical thinking: Sensitive applications of GenAI" title="Direct link to Critical thinking: Sensitive applications of GenAI">​</a></h3>
+<ul>
+<li>News generation<!-- -->
+<ul>
+<li>The AI could prioritize sensational headlines over factual accuracy, undermining trust in news sources.</li>
+<li>To address these risks, it is essential for news organizations to implement strict human oversight when using AI, ensuring that journalistic integrity and accuracy remain at the forefront.</li>
+</ul>
+</li>
+<li>Deepfakes<!-- -->
+<ul>
+<li>It’s essential to develop and implement tools that can accurately detect AI-generated content, ensuring the responsible use of this technology and protecting public trust to mitigate these dangers.</li>
+</ul>
+</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/devkobetran/ML-AI-LLM-notes/docs/amazon-ai/introduction-to-ai.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/ML-AI-LLM-notes/docs/category/amazon-ai-notes"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Amazon AI Notes</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/ML-AI-LLM-notes/docs/amazon-ai/generative-ai-programming-tools"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Generative AI programming tools</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#introduction-to-generative-artificial-intelligence" class="table-of-contents__link toc-highlight">Introduction to Generative Artificial Intelligence</a><ul><li><a href="#discriminative-ai" class="table-of-contents__link toc-highlight">Discriminative AI</a></li></ul></li><li><a href="#how-generative-ai-works" class="table-of-contents__link toc-highlight">How generative AI works</a></li><li><a href="#generative-ai-in-software-development" class="table-of-contents__link toc-highlight">Generative AI in software development</a><ul><li><a href="#boost-in-productivity" class="table-of-contents__link toc-highlight">Boost in productivity</a></li><li><a href="#limitations" class="table-of-contents__link toc-highlight">Limitations</a></li><li><a href="#ethical-concerns" class="table-of-contents__link toc-highlight">Ethical concerns</a></li><li><a href="#waning-personal-skills" class="table-of-contents__link toc-highlight">Waning Personal skills</a></li><li><a href="#tips" class="table-of-contents__link toc-highlight">Tips</a></li></ul></li><li><a href="#ethical-considerations-and-impact" class="table-of-contents__link toc-highlight">Ethical Considerations and impact</a><ul><li><a href="#data-privacy" class="table-of-contents__link toc-highlight">Data Privacy</a></li><li><a href="#generating-harmful-or-misleading-content" class="table-of-contents__link toc-highlight">Generating harmful or misleading content</a></li><li><a href="#the-societal-impacts-of-genai" class="table-of-contents__link toc-highlight">The societal impacts of GenAI</a></li><li><a href="#critical-thinking-sensitive-applications-of-genai" class="table-of-contents__link toc-highlight">Critical thinking: Sensitive applications of GenAI</a></li></ul></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/ML-AI-LLM-notes/docs/intro">Tutorial</a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://github.com/devkobetran/ML-AI-LLM-notes" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 Kobe Tran ML-AI-LLM Notes. Built with Docusaurus.</div></div></div></footer></div>
+</body>
+</html>
